@@ -1,0 +1,33 @@
+﻿Qué es XML? {
+   ~%-100%Es una versión mejorada de HTML
+   ~%50%Es un metalenguaje
+   ~%50%Un subconjunto de SGML
+   ~%-100%Un lenguaje para hacer páginas web
+}
+
+Selecciona todos los lenguajes de marcas: {
+	~%-100%XML
+	~%50%HTML
+	~%-100%JSON
+	~%50%LaTex
+}
+
+¿Cómo se escribe un comentario en HTML? {
+	~%-100%<!-comentario->
+	~%-100%<--comentario--!>
+	~%100%<!--comentario-->
+	~%-100%<--comentario-->
+}
+
+¿Cómo se cierra una etiqueta en HTML? {
+	~%-100%<>
+	~%100%</>
+	~%-100%<\>
+}
+
+¿En qué tipo de texto se utilizan los lenguajes de marcas? {
+	~%100%Texto plano
+	~%-100%Texto enriquecido
+	~%-100%Texto estructurado
+	~%-100%Texto con estilos
+}
