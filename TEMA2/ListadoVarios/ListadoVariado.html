@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Listado Variado José Jiménez Romero</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../JJR.ico">
+    <meta name="author" content="José Jiménez Romero">
+    <link rel="stylesheet" type="text/css" href="../../../estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    
+   <nav id="menu">
+<ul>
+     <li><a href="../../../index.html">Home</a></li>
+  <li><a href="../Practica1-HolaMundo/index.html" class="active">Hola Mundo</a></li>
+  <li><a href="#">Formularios</a>
+    <ul>
+      <li><a href="../FORMULARIOSHTML5/formularioPrimero.html">Formulario Primero</a></li>
+      <li><a href="../FORMULARIOSHTML5/FormularioCompletito.html">Formulario Completito</a></li>
+      <li><a href="../FORMULARIOSHTML5/Formulario%20Refinitivo.html">Formulario Refinitivo</a></li>
+    <li><a href="../FORMULARIOSHTML5/formularioDNI.html">Formulario DNI</a></li>
+    </ul>
+  </li>
+  <li><a href="../ListadoTablas/index.html">Listado Tablas</a></li>
+  <li><a href="../ListadoVarios/ListadoVariado.html">Listado Variado</a></li>
+    <li><a href="../CSStutorial/index.html">Tutorial CSS</a></li>
+    <li><a href="../../../TEMA3-SindicaciondeContenidos/AnalizandoRSS/index.html">Analizando RSS</a></li>
+    <li><a href="../../../TEMA3-SindicaciondeContenidos/Grid-Templates/index.html">Grid-Templates</a></li>
+    <li><a href="../../../TEMA4-XML/XMLdeCD/cd.xml">XML CD</a></li>
+</ul>
+</nav>
+    <br><br>
+    
+    <h1 class="enunciado">ENUNCIADO</h1>
+    <p>Realizar tres cuadrados y tres rectángulos de distinto tamaño cada uno utilizando <em>canvas</em>, además, hacer uso de la etiqueta <em>map</em> añadiendo una imagen. Finalmente, añadir un audio y un video.</p>
+    <br>
+    
+    <ul id="tablaantorcha">        
+        <a href="#Cuadrado"><li class="tablaantorcha" id="cuadrados">Cuadrados</li></a>
+        <a href="#Rectangulos"><li class="tablaantorcha" id="rectangulos">Rectangulos</li></a>
+        <a href="#map"><li class="tablaantorcha" id="mapa">Mapa</li></a>
+        <a href="#Audio"><li class="tablaantorcha" id="audio">Audio</li></a>
+        <a href="#Video"><li class="tablaantorcha" id="video">Video</li></a>
+    </ul>
+
+        <a href="#cuadrados"><h2 id="Cuadrado">Cuadrados</h2></a>
+    <canvas id="cuadrado1" title="Cuadrado Rojo" width="100" height="100"></canvas>
+        <script type="text/javascript">
+            
+            {
+                let canvas = document.getElementById('cuadrado1');
+                let contexto = canvas.getContext('2d');
+                contexto.fillStyle = '#ff0000';
+                contexto.fillRect(0,0,150,150);
+            }
+        </script>
+    <canvas id="cuadrado2" title="Cuadrado Verde" width="100" height="80"></canvas>
+        <script type="text/javascript">
+            
+            {
+                let canvas = document.getElementById('cuadrado2');
+                let contexto = canvas.getContext('2d');
+                contexto.fillStyle = '#00ff00';
+                contexto.fillRect(0,0,150,150);
+            }
+        </script>
+    <canvas id="cuadrado3" title="Cuadrado Azul" width="100" height="60"></canvas>
+        <script type="text/javascript">
+            
+            {
+                let canvas = document.getElementById('cuadrado3');
+                let contexto = canvas.getContext('2d');
+                contexto.fillStyle = '#0000ff';
+                contexto.fillRect(0,0,150,150);
+            }
+            
+        </script>
+    <br><br><br><br>
+    <a href="#rectangulos"><h2 id="Rectangulos">Rectángulos</h2></a>
+    <canvas id="rectangulo1" title="Rectangulo Blanco" width="100" height="50"></canvas>
+        <script type="text/javascript">
+            
+            {
+                let canvas = document.getElementById('rectangulo1');
+                let contexto = canvas.getContext('2d');
+                contexto.fillStyle = '#efefef';
+                contexto.fillRect(0,0,150,150);
+            }
+        </script>
+    <canvas id="rectangulo2" title="Rectangulo Gris" width="50" height="100"></canvas>
+        <script type="text/javascript">
+            
+            {
+                let canvas = document.getElementById('rectangulo2');
+                let contexto = canvas.getContext('2d');
+                contexto.fillStyle = '#AFAFAF';
+                contexto.fillRect(0,0,150,150);
+            }
+        </script>
+    <canvas id="rectangulo3" title="Rectangulo Negro" width="100" height="50"></canvas>
+        <script type="text/javascript">
+            
+            {
+                let canvas = document.getElementById('rectangulo3');
+                let contexto = canvas.getContext('2d');
+                contexto.fillStyle = '#000000';
+                contexto.fillRect(0,0,150,150);
+            }
+        </script>
+    <br><br><br>
+    <!-- Image Map Generated by http://www.image-map.net/ -->
+    <a href="#mapa"><img src="Andalucia-mapa.jpg" usemap="#image-map" title="Mapa Andalucía" id="map"></a>
+
+    <map name="image-map">
+        <area target="_blank" alt="Jaén" title="Jaén" href="https://www.juntadeandalucia.es/organismos/cultura/areas/bienes-culturales/patrimonio-mundial/paginas/2003-ubeda-baeza.html" coords="346,48,346,85,350,133,372,161,404,142,424,140,454,135,470,127,480,102,494,87,509,61,504,46,493,34,461,40,436,37,423,42,408,42,387,44,347,49,228,59" shape="poly">
+        <area target="_blank" alt="Córdoba" title="Córdoba" href="https://www.juntadeandalucia.es/organismos/cultura/areas/bienes-culturales/patrimonio-mundial/paginas/1984-cordoba.html" coords="317,37,300,23,273,4,249,25,225,42,230,66,224,73,242,99,247,122,244,134,261,127,279,127,283,146,294,164,301,175,317,180,328,173,339,182,349,167,367,156,345,48" shape="poly">
+        <area target="_blank" alt="Sevilla" title="Sevilla" href="https://www.juntadeandalucia.es/organismos/cultura/areas/bienes-culturales/patrimonio-mundial/paginas/1987-sevilla.html" coords="222,76,214,68,196,73,191,83,175,90,170,111,142,117,139,126,148,136,152,162,150,190,153,208,178,218,194,216,213,208,223,207,234,203,245,201,254,206,274,198,294,186,301,180,295,170,227,78,279,143,258,126,239,131,243,117,238,99,222,76" shape="poly">
+        <area target="_blank" alt="Málaga" title="Málaga" href="https://www.juntadeandalucia.es/organismos/cultura/areas/bienes-culturales/patrimonio-mundial/paginas/dolmenes-antequera.html" coords="309,179,288,188,259,202,262,220,253,215,244,224,244,235,225,252,220,259,232,256,239,270,246,277,263,270,290,260,310,258,321,249,338,240,355,235,376,235,385,231,385,221,359,214,346,200,338,185,342,175,328,173" shape="poly">
+        <area target="_blank" alt="Huelva" title="Huelva" href="https://www.juntadeandalucia.es/organismos/cultura/areas/bienes-culturales/patrimonio-mundial/paginas/1994-donana.html" coords="171,92,173,110,151,111,137,123,149,143,149,162,147,190,152,210,148,220,130,198,110,185,98,177,76,175,54,174,52,142,52,121,70,98,84,77,98,62,112,64,131,78,148,79,163,90" shape="poly">
+    </map>
+    <br><br><br>
+    
+    <a href="#audio"><h2 id="Audio">Audio</h2></a>
+    <p>Parchís - Cumpleaños Feliz</p>
+    <audio src="./media/Parch%C3%ADs%20-%20Cumplea%C3%B1os%20feliz%20(high%20quality)%20%20-%20oficial.mp3" controls></audio>
+    
+    <a href="#video"><h2 id="Video">Vídeo</h2></a>
+    <p>Videoclip</p>
+    <video src="media/Parch%C3%ADs%20-%20Cumplea%C3%B1os%20feliz%20(high%20quality)%20%20-%20oficial.mp4" controls></video>
+    <br><br>
+    
+    <footer id="footerrelativo">
+    <a id="paginaanterior" href="../ListadoTablas/index.html">Página Anterior</a>
+    <a id="paginasiguiente" href="../CSStutorial/index.html">Página Siguiente</a>
+    </footer>
+
+</body>
+</html>

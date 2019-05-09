@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+    
+    
+<head>
+    
+    <meta author="José Jiménez Romero">
+    <meta charset="UTF-8">
+    <link rel="icon" href="JJR.ico">
+    <title>Formularios de reservas José Jiménez Romero</title>
+</head>
+    
+<body>
+    <h1>FORMULARIOS DE RESERVA</h1>
+
+    <form action="" method="get" name="for">
+    
+        <fieldset>
+            <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" required>
+            <br><br>
+            <label for="correo">Correo electrónico</label>
+                <input type="email" name="correo" id="correo" required>
+            <br><br>
+            <label for="fecha">Fecha de llegada</label>
+                <input type="date" id="fecha" name="fecha" required min="12/04/2019" max="21/04/2019">
+            <br><br>
+            <label for="hora">Hora de llegada</label>
+                <input type="time" id="fecha" name="fecha" min="08:00" max="20:00" step="3600" value="08:00">
+            <br><br>
+            <label for="numerominimo">Número mínimo de noches</label>
+                <input type="number" id="numerominimo" name="numerominimo" min="1">
+            <br><br>
+            <label for="numeropersonas">Número mínimo de personas</label>
+                <input type="number" id="numeropersonas" name="numeropersonas" min="1">
+            <br><br>
+            <label for="servicio">Servicio de restaurante</label>
+            <br><br>
+                <input type="checkbox" id="desayuno" name="servicio">Desayuno
+            <br>
+                <input type="checkbox" id="almuerzo" name="servicio">Almuerzo
+            <br>
+                <input type="checkbox" id="cena" name="servicio">Cena
+            <br><br>
+        
+            <label for="edad">Grupo de edad al que pertenece</label>
+            <br><br>
+                <input type="radio" id="menos20" name="edad">Menos de 20
+            <br>
+                <input type="radio" id="entre" name="edad">Entre 20 y 40
+            <br>
+                <input type="radio" id="mas40" name="edad">Más de 40
+            <br><br>
+            
+        </fieldset>
+    </form>
+    
+    
+<br><br>
+<input type="submit" name="submit" value="Solicitar reserva">
+    <br><br>
+    <a href="index.html">Índice</a>
+</body>
+    
+</html>

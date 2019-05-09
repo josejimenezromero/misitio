@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="José Jiménez Romero">
+    <link rel="icon" href="../JJR.ico">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Formulario José Jiménez Romero</title>
+</head>
+<body>
+    <header>
+        <h1 id="enunciado">Examen Diciembre 2018</h1>
+        <nav id="menu">
+            <ul>
+                <li class="limenu"><a href="index.html">Presentación</a></li>
+                <li class="limenu"><a href="formulario.html">Formulario</a></li>
+                <li class="limenu"><a href="horario.html">Horario</a></li>
+                <li class="limenu"><a href="media.html">Media</a></li>
+            </ul>
+        
+        </nav>
+    
+    
+    </header>
+    
+    <h1>Formularrio Reservas</h1>
+   
+        <form method="post" action="">
+            <legend></legend>
+            
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" required name="nombre">&nbsp;<label>(obligatorio)</label>
+            <br><br>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" required name="correo">&nbsp;<label>(obligatorio)</label>
+            <br><br>
+            <label for="fecha">Fecha de llegada:</label>
+            <input type="date" min="22/12/2019" max="31/22/2019" name="fecha">
+            <br><br>
+            <label for="coches">Número de coches</label>
+            <input type="number" name="coches" min="1">
+            <br><br>
+            <label for="personas">Número de personas</label>
+            <input type="number" name="personas" min="1">
+            <br><br>
+            <fieldset>
+            <legend>Servicio de restaurante</legend>
+            <br>
+            <input type="checkbox" value="desayuno" name="servicios"><label>Desayuno</label>
+            <br>
+            <input type="checkbox" value="almuerzo" name="servicios"><label>Almuerzo</label>
+            <br>
+            <input type="checkbox" value="cena" name="servicios"><label>Cena</label>
+            </fieldset>
+            <fieldset>
+                <legend>Edad del cliente</legend>
+                <input type="radio" name="edad"><label>Menos de 20</label>
+                <br>
+                <input type="radio" name="edad"><label>Entre 20 y 40</label>
+                <br>
+                <input type="radio" name="edad"><label>Más de 40</label>
+            </fieldset>
+        </form>
+    <br>
+
+        <input type="submit" value="Me voy de viaje">
+    
+    
+    <footer><a href="https://twitter.com/josejimenezrom2"><img src="instrucciones-entregar/Twitter_Social_Icon_Circle_Color.png" title="logoTwitter">Twitter</a><a href="https://josejimenezromero.000webhostapp.com/">Entregas de lenguaje de marcas</a><label>@copyright 2018 José Jiménez Romero</label></footer>
+</body>
+</html>

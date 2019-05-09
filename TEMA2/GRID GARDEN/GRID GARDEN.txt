@@ -1,0 +1,379 @@
+GRID GARDEN, PRÁCTICA DE LENGUAJE DE MARCAS Y SISTEMAS DE GESTIÓN DE LA INFORMACIÓN
+
+--JOSÉ JIMÉNEZ ROMERO--
+
+*SOLUCIÓN 1* 							LOS ELEMENTOS EMPIEZAN A POSICIONARSE A PARTIR DE LA COLUMNA 3.
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+grid-column-start:3;
+}
+
+*SOLUCIÓN 2*							LOS ELEMENTOS EMPIEZAN A POSICIONARSE A PARTIR DE LA COLUMNA 5.
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#poison {
+grid-column-start: 5
+}
+
+*SOLUCIÓN 3*							LOS ELEMENTOS EMPIEZAN A POSICIONARSE A PARTIR DEL PRIMER BORDE DE LA IZQUIERDA, EN ESTE CASO HAY 3 COLUMNAS PERO DEBEMOS ESCRIBIR EL NÚMERO 4 PARA QUE LLEGUE HASTA EL CUARTO BORDE.
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+  grid-column-start: 1;						
+grid-column-end:4
+}
+
+*SOLUCIÓN 4*
+								LOS ELEMENTOS EMPIEZAN EN LA COLUMNA 5 Y TERMINAN EN LA COLUMNA 2.
+
+#garden {
+  display: grid;						
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+  grid-column-start: 5;
+grid-column-end: 2;
+}
+
+*SOLUCIÓN 5*
+								LOS ELEMENTOS EMPIEZAN EN EL BORDE 1 CONTANDO DESDE LA DERECHA Y TERMINAN CUANDO FALTEN 2 BORDES (-2).
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+  grid-column-start: 1;
+grid-column-end: -2;
+}
+
+*SOLUCIÓN 6*
+								LOS ELEMENTOS TERMINAN CONTANDO 3 BORDES DESDE LA DERECHA.
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#poison {
+Grid-column-start: -3;
+} 
+
+*SOLUCIÓN 7*
+								EMPIZA EN EL BORDE 2 Y EL FINAL DE LA COLUMNA SE EXTIENDE 2 BORDES MAS (ES DECIR, HASTA EL CUARTO BORDE).
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+  grid-column-start: 2;
+grid-column-end: span 2;
+}
+
+*SOLUCIÓN 8*
+								LOS ELEMENTOS EMPIEZAN EN EL PRIMER BORDE DESDE LA IZQUIERDA Y SE EXTIENDE 5 BORDES MAS (ES DECIR, HASTA EL BORDE NÚMERO 6 DESDE LA IZQUIERDA).
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+  grid-column-start: 1;
+grid-column-end: span 5;
+}
+
+*SOLUCIÓN 9*
+
+								LOS ELEMENTOS EMPIEZAN EN EL BORDE NÚMERO 3 DESDE LA IZQUIERDA Y TERMINAN EN EL BORDE NÚMERO 6 DESDE LA IZQUIERDA(ES DECIR, HAY AGUA DESDE LA COLUMNA 3 HASTA LA 6).
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+grid-column-start: span 3;
+  grid-column-end: 6;
+}
+
+*SOLUCIÓN 10*
+
+								HABRÁ AGUA DESDE LA COLUMNA 4 HASTA LA COLUMNA 6 DESDE LA IZQUIERDA.
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+grid-column: 4 / 6;
+}
+
+*SOLUCIÓN 11*
+								HABRÁ AGUA DESDE LA COLUMNA 2 HASTA LA COLUMNA 5 DESDE LA IZQUIERDA.
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+grid-column: 2 / 5;
+}
+
+*SOLUCIÓN 12*
+
+								LOS ELEMENTOS EMPIEZAN EN LA FILA NÚMERO 3.
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+grid-row-start: 3;
+}
+
+*SOLUCIÓN 13*
+
+									HABRÁ AGUA DESDE LA FILA 3 HASTA LA FILA 6.
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+grid-row: 3 / 6;
+}
+
+*SOLUCIÓN 14*
+									HABRÁ AGUA DESDE LA COLUMNA 2 HASTA LA COLUMNA 3 Y ADEMÁS HABRÁ AGUA DESDE LA FILA 5 HASTA LA FILA 6.
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#poison {
+grid-column: 2 / 3;
+grid-row: 5 / 6;
+}
+
+
+*SOLUCIÓN 15*
+
+								HABRÁ AGUA DESDE LA COLUMNA 2 HASTA LA COLUNA 6 Y ADEMÁS HABRÁ AGUA DESDE LA FILA 1 HASTA LA FILA 6.
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+grid-column: 2 / 6;
+grid-row: 1 / 6;
+}
+
+*SOLUCIÓN 16*
+
+								MARCAMOS UN ÁREA CUADRADA PARA LLENAR DE AGUA.
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+grid-area: 1 / 2 / 4 / 6;
+}
+
+*SOLUCIÓN 17*
+
+								MARCAMOS UN ÁREA PARA LLENAR DE AGUA.
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water-1 {
+  grid-area: 1 / 4 / 6 / 5;
+}
+
+#water-2 {
+grid-area: 2 / 3 / 5 / 6;
+}
+
+*SOLUCIÓN 18*
+
+								EL AGUA POR DEFECTO TIENE ORDENACIÓN 0 POR LO QUE SI LE AÑADIMOS CUALQUIER NÚMERO SUPERIOR A ESE VALOR SE COLOCARÁ A LA DERECHA DE FORMA ORDENADA.
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.water {
+  order: 0;
+}
+
+#poison {
+order: 1;
+}
+
+*SOLUCIÓN 19*
+
+								EL AGUA POR DEFECTO TIENE ORDENACIÓN 0 POR LO QUE SI AÑADIMOS UN VALOR NEGATIVO AL VENENO, ESTE SE SITUARÁ ARRIBA MIENTRAS QUE EL AGUA LO HARÁ DEBAJO.
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.water {
+  order: 0;
+}
+
+.poison {
+order: -1;
+}
+
+*SOLUCIÓN 20*
+
+								AL NO SER UNA TABLA PERFECTAMENTE CUADRALIZADA, TENEMOS QUE AÑADIR UNOS VALORES EN TANTO POR CIENTO.
+
+#garden {
+  display: grid;
+grid-template-columns: 50% 10% 25% 5% 10%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+*SOLUCIÓN 21*
+
+								CON LA FUNCIÓN REPEAT ESPECIFICÁMOS EL TAMAÑO DE LAS COLUMNAS EN LA CUADRÍCULA.
+
+#garden {
+  display: grid;
+grid-template-columns: repeat(8, 12.5%);
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+*SOLUCIÓN 22*
+
+								CON ESTO LE DECIMOS QUE TOME ESOS VALORES.
+
+#garden {
+  display: grid;
+grid-template-columns: 100px 3em 40%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+*SOLUCIÓN 23*
+
+#garden {
+  display: grid;
+grid-template-columns: 1fr 5fr;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+*SOLUCIÓN 24*
+
+#garden {
+  display: grid;
+grid-template-columns: 50px 1fr 1fr 1fr 50px;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+  grid-area: 1 / 1 / 6 / 2;
+}
+
+#poison {
+  grid-area: 1 / 5 / 6 / 6;
+}
+
+
+*SOLUCIÓN 25*
+
+#garden {
+  display: grid;
+grid-template-columns: 75px 3fr 2fr;
+  grid-template-rows: 100%;
+}
+
+*SOLUCIÓN 26*
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+grid-template-rows: repeat(4,12.5px) 1fr
+}
+
+#water {
+  grid-column: 1 / 6;
+  grid-row: 5 / 6;
+}
+
+*SOLUCIÓN 27*
+
+#garden {
+  display: grid;
+grid-template: 60% 40% / 200px;
+}
+
+#water {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+
+*SOLUCIÓN 28*
+
+#garden {
+  display: grid;
+grid-template: 1fr 50px / 1fr 4fr;
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="José Jiménez Romero y José David Villegas Mendoza">
+    <link rel="icon" href="./media/JJR.ico">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Index José Jiménez Romero y Jose David Villegas Mendoza</title>
+</head>
+<body>
+    <header>
+        <h1 id="enunciado">Examen Diciembre 2018</h1>
+        <nav id="menu">
+            <ul>
+                <li class="limenu"><a href="index.html">Presentación</a></li>
+                <li class="limenu"><a href="formulario.html">Formulario</a></li>
+                <li class="limenu"><a href="horario.html">Horario</a></li>
+                <li class="limenu"><a href="media.html">Media</a></li>
+            </ul>
+        
+        </nav>
+    
+    
+    </header>
+    
+    <h2>Formulario de reservas</h2>
+   
+        <form method="post" action="">
+            <legend></legend>
+            
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" required name="nombre">&nbsp;<label>(obligatorio)</label>
+            <br><br>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" name="correo" required>&nbsp;<label>(obligatorio)</label>
+            <br><br>
+            <label for="fecha">Fecha de llegada:</label>
+            <input type="date" name="fecha" min="2019-12-22" max="2019-12-31">
+            <br><br>
+            <label for="coches">Número de coches</label>
+            <input type="number" name="coches" min="1">
+            <br><br>
+            <label for="personas">Número de personas</label>
+            <input type="number" name="personas" min="1">
+            <br><br>
+            <fieldset>
+            <legend>Servicio de restaurante</legend>
+            <br>
+            <input type="checkbox" value="desayuno" name="desayuno" id="desayuno"><label>Desayuno</label>
+            <br>
+            <input type="checkbox" value="almuerzo" name="almuerzo" id="almuerzo"><label>Almuerzo</label>
+            <br>
+            <input type="checkbox" value="cena" name="cena" id="cena"><label>Cena</label>
+            </fieldset>
+            <fieldset>
+                <legend>Edad del cliente</legend>
+                <input type="radio" name="edad" value="menos_veinte" checked><label>Menos de 20</label>
+                <br>
+                <input type="radio" name="edad" value="entre_veinte_cuarenta"><label>Entre 20 y 40</label>
+                <br>
+                <input type="radio" name="edad" value="mas_cuarenta"><label>Más de 40</label>
+            </fieldset>
+        </form>
+    <br>
+
+        <input type="submit" value="Me voy de viaje">
+    
+    
+    <footer><a href="https://youtube.com/josedavm" target="_blank"><img src="media/Twitter_Social_Icon_Circle_Color.png" title="logoTwitter"> Twitter</a><br>
+        <a href="https://josejimenezromero.000webhostapp.com/">Entregas de lenguaje de marcas JJR y</a>
+        <a href="https://joseda.000webhostapp.com/">Entregas de lenguaje de marcas JDVM</a><br>
+        <label>@copyright 2018 José Jiménez Romero y José David Villegas Mendoza</label></footer>
+</body>
+</html>

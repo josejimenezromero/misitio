@@ -1,0 +1,88 @@
+PRACTICA FLEXBOX FROGGY DE LENGUAJE DE MARCAS Y SISTEMAS DE GESTIÓN DE LA INFORMACIÓN
+
+--JOSÉ JIMÉNEZ ROMERO--
+
+SOLUCIÓN 1	display: flex;
+		justify-content: flex-end;		Alinea elementos al lado derecho del contenedor.
+
+SOLUCIÓN 2	display: flex;
+		justify-content: center;		Alinea elementos al lado derecho del contenedor.
+
+SOLUCIÓN 3	display: flex;
+		justify-content: space-around;		Alinea los elementos con la misma separación a su alrededor.
+
+SOLUCIÓN 4	display: flex;
+		justify-content: space-between;		Alinea los elementos con la misma distancia entre ellos.
+
+SOLUCIÓN 5	display: flex;
+		align-items: flex-end;			Alinea elementos a la parte inferior del contenedor.
+
+SOLUCIÓN 6	display: flex;
+		align-items: center;
+		justify-content: center;		Alinea elementos en el centro tanto verticalmente como horizontalmente.
+
+SOLUCIÓN 7	display: flex;
+		justify-content: space-around;	
+		align-items: flex-end;			Alinea elementos con la misma separación entre ellos y además los posiciona en la parte inferior del contenedor.
+
+SOLUCIÓN 8	display: flex;
+		flex-direction: row-reverse;		Los elementos son colocados en la dirección opuesta al texto.
+
+SOLUCIÓN 9	display: flex;
+		flex-direction: column;			Los elementos se colocan de arriba hacia abajo.
+
+SOLUCIÓN 10	display: flex;
+		flex-direction: row-reverse;
+    		justify-content: flex-end;		Alinea los elementos de forma opuesta y además los coloca en la parte inferior del contenedor (en este caso a la izquierda ya que es el desplazamiento opuesto es hacia la derecha).
+
+SOLUCIÓN 11	display: flex;
+		flex-direction: column;
+    		justify-content: flex-end;		Los elementos se colocan de arriba hacia abajo en forma de columna y además se posicionan en la parte inferior del contenedor.
+
+SOLUCIÓN 12	display: flex;
+		flex-direction: column-reverse;
+    		justify-content: space-between;		Los elementos de posicionan en forma de columna y de forma opuesta, pero además, creando el mismo espacio entre ellos.
+
+SOLUCIÓN 13 	display: flex;
+		flex-direction: row-reverse;
+    		justify-content: center;   		
+    		align-items: flex-end;			Los elementos se alinean en forma de fila opuesta, se posicionan en el centro y en la parte inferior del contenedor.
+
+SOLUCIÓN 14	display: flex;
+		order: 1;				Reordena los elementos.
+
+SOLUCIÓN 15	display: flex;
+		order: -1;				Reordena los elementos de forma opuesta.
+
+SOLUCIÓN 16	display: flex;
+		align-self: flex-end; 			Alinea un elemento específico en la parte inferior del contenedor.
+
+SOLUCIÓN 17	display: flex;
+		align-self: flex-end;			Alinea un elemento específico a la parte inferior y además ordena.
+    		order: 1;
+
+SOLUCIÓN 18	display: flex;
+		flex-wrap: wrap;			Los elementos se envuelven alrededor de líneas adicionales.
+
+SOLUCIÓN 19	display: flex;
+		flex-direction: column;
+    		flex-wrap: wrap; 			Los elementos se alinean en forma de columna y además se envuelven alrededor de las líneas adicionales (no están tan apretujados).
+
+SOLUCIÓN 20	display: flex;
+		flex-flow: column wrap;			Esto combina la posición en columnas y envueltas alrededor de una línea adicional.
+
+SOLUCIÓN 21	display: flex;
+		align-content: flex-start;		Los elementos se posicionan en la parte superior del contenedor.
+
+SOLUCIÓN 22	display: flex;
+		align-content: flex-end;		Los elementos se posicionan en la parte inferior del contenedor.
+
+SOLUCIÓN 23	display: flex;
+		flex-direction: column-reverse;
+    		align-content: center;			Alinea los elementos en forma de columna opuesta y se posicionan en el centro del contenedor.
+
+SOLUCIÓN 24	display: flex;
+		flex-flow:column-reverse wrap-reverse;
+    		justify-content:center;
+    		align-content:space-between; 		Los elementos se alinean en forma de columna opuesta y envueltos en líneas adicionales para que no se dispongan tan concéntricamente, además, se posicionan en el centro del contenedor y ajusta el espacio que hay entre los elementos.
+

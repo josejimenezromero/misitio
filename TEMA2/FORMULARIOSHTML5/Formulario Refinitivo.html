@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Refinitivo José Jiménez Romero</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../JJR.ico">
+    <meta name="author" content="José Jiménez Romero">
+    <link rel="stylesheet" type="text/css" href="../../../estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+
+    <nav id="menu">
+<ul>
+     <li><a href="../../../index.html">Home</a></li>
+  <li><a href="../Practica1-HolaMundo/index.html" class="active">Hola Mundo</a></li>
+  <li><a href="#">Formularios</a>
+    <ul>
+      <li><a href="../FORMULARIOSHTML5/formularioPrimero.html">Formulario Primero</a></li>
+      <li><a href="../FORMULARIOSHTML5/FormularioCompletito.html">Formulario Completito</a></li>
+      <li><a href="../FORMULARIOSHTML5/Formulario%20Refinitivo.html">Formulario Refinitivo</a></li>
+    <li><a href="../FORMULARIOSHTML5/formularioDNI.html">Formulario DNI</a></li>
+    </ul>
+  </li>
+  <li><a href="../ListadoTablas/index.html">Listado Tablas</a></li>
+  <li><a href="../ListadoVarios/ListadoVariado.html">Listado Variado</a></li>
+    <li><a href="../CSStutorial/index.html">Tutorial CSS</a></li>
+    <li><a href="../../../TEMA3-SindicaciondeContenidos/AnalizandoRSS/index.html">Analizando RSS</a></li>
+    <li><a href="../../../TEMA3-SindicaciondeContenidos/Grid-Templates/index.html">Grid-Templates</a></li>
+    <li><a href="../../../TEMA4-XML/XMLdeCD/cd.xml">XML CD</a></li>
+</ul>
+</nav>
+    <br><br>
+    
+    <form action="" method="post">
+        <h1 title="Enunciado" class="enunciado">ENUNCIADO</h1>
+            <p title="Realizar Formulario Refinitivo"><strong>Realizar el Formulario Refinitivo igual que la imagen debajo definida.</strong></p>
+            
+                <table border="1" class="tablaformularios">
+                    <caption class="captionformulario">Formulario Refinitivo</caption>
+                    
+                   <tr>Etiquetas
+                        <th>Fieldset</th>
+                        <td>Es una etiqueta que permite organizar en grupos los campos de un formulario.</td>
+                    </tr>
+                    <tr>
+                        <th>Legend</th>
+                        <td>Crea un título para un grupos los campos</td>
+                    </tr>
+                    <tr>
+                        <th>Form</th>
+                        <td>Permite crear un formulario para que el usuario pueda mandar información a un servidor web.</td>
+                    </tr>
+                    <tr>
+                        <th>input</th>
+                        <td>Se utiliza para crear controles para formularios que reciben datos de los usuarios</td>
+                    </tr>
+                    <tr>
+                        <th>Label</th>
+                        <td>Es un pequeño título asociado al input</td>
+                    </tr>
+                     <tr>
+                        <th>Progress</th>
+                        <td>Se utiliza para visualizar el progreso de una tarea</td>
+                    </tr>
+                    <tr>
+                        <th>Metter</th>
+                        <td>Representa un valor escalar dentro de un rango conocido o un valor fraccionario</td>
+                    </tr>
+                </table>
+        <br><br>
+        <fieldset>
+            <img src="formulariorefinitivo.png" id="formulariorefinitivo" title="Formulario Refinitivo">
+        <legend>Formulario Refinitivo</legend>
+            
+            <br><br>
+            <label for="title" class="label">Title</label>
+                <input type="text" id="title" placeholder="Select one or enter yout own" autofocus>
+            <br><br>
+            <label for="name" class="label">Name</label>
+                <input type="text" id="name" placeholder="John Doe" required>
+            <br><br>
+            <label for="phonenumber" class="label">Phone Number</label>
+                <input type="tel" id="number" placeholder="+1 23456789" pattern="[6-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]"> (Optional)
+            <br><br>
+            <label for="email" class="label">Email address</label>
+                <input type="email" id="email" placeholder="foo@bar.com" required>
+            <br><br>
+            <label for="url" class="label">Your Website</label>
+                <input type="url" id="url" placeholder="www.yoursite.com"> (Optional)
+            <br><br>
+            <label for="number" class="label">Nr. of items to order</label>
+                <input type="number" id="number" value="1" min="1" max="10"> 1-10
+            <br><br>
+            <label for="length" class="label">Length</label>
+                <input type="range" id="range" value="0" step="10">1m (in 10cm increments)
+            <br><br>
+            <label for="date" class="label">Delivery date</label>
+                <input type="date" id="date" value="16/12/10" min="16-12-2010"> (Minimun 16 December 2010)
+            <br><br>
+            <label for="time" class="label">Time of delivery</label>
+                <input type="time" id="time" step="30"> (in 30 min increments)
+            <br><br>
+            <label for="color" class="label">Color of the item</label>
+                <input type="color" value="#F81321"> (default red)
+            <br><br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+              
+            <fieldset>
+                
+            <label for="Search" class="label">Search</label>
+                <input type="search"> <input type="submit" value="Go">
+            
+            </fieldset>
+            <br>
+        
+        <fieldset>
+            <label for="progress" class="label">Progress</label>
+                <progress value="20" max="100">20%</progress>
+            <br><br>
+            <label for="Diskusage" class="label">Disk usage</label>
+                <progress value="15" max="100"></progress>
+                <progress value="90" max="100"></progress>
+                <progress value="100" max="100"></progress> (3 meter value)
+        
+        </fieldset>
+        <br><br>
+   
+    </form>
+    <footer id="footerrelativo">
+    <a id="paginaanterior" href="../FORMULARIOSHTML5/FormularioCompletito.html">Página Anterior</a>
+    <a id="paginasiguiente" href="../FORMULARIOSHTML5/formularioDNI.html">Página Siguiente</a>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Completito José Jiménez Romero</title>
+    <link rel="shortcut icon" type="image/x-icon" href="JJR.ico">
+    <meta name="author" content="José Jiménez Romero">
+    <link rel="stylesheet" type="text/css" href="../../../estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    
+ <nav id="menu">
+<ul>
+     <li><a href="../../../index.html">Home</a></li>
+  <li><a href="../Practica1-HolaMundo/index.html" class="active">Hola Mundo</a></li>
+  <li><a href="#">Formularios</a>
+    <ul>
+      <li><a href="../FORMULARIOSHTML5/formularioPrimero.html">Formulario Primero</a></li>
+      <li><a href="../FORMULARIOSHTML5/FormularioCompletito.html">Formulario Completito</a></li>
+      <li><a href="../FORMULARIOSHTML5/Formulario%20Refinitivo.html">Formulario Refinitivo</a></li>
+    <li><a href="../FORMULARIOSHTML5/formularioDNI.html">Formulario DNI</a></li>
+    </ul>
+  </li>
+  <li><a href="../ListadoTablas/index.html">Listado Tablas</a></li>
+  <li><a href="../ListadoVarios/ListadoVariado.html">Listado Variado</a></li>
+    <li><a href="../CSStutorial/index.html">Tutorial CSS</a></li>
+    <li><a href="../../../TEMA3-SindicaciondeContenidos/AnalizandoRSS/index.html">Analizando RSS</a></li>
+    <li><a href="../../../TEMA3-SindicaciondeContenidos/Grid-Templates/index.html">Grid-Templates</a></li>
+    <li><a href="../../../TEMA4-XML/XMLdeCD/cd.xml">XML CD</a></li>
+</ul>
+</nav>
+    <br><br>
+
+    
+    <form action="" method="post">
+        
+        <h1 title="Enunciado" class="enunciado">ENUNCIADO</h1>
+            <p title="Realizar Formulario Completito"><strong>Realizar el Formulario Completito igual que la imagen debajo definida.</strong></p>
+        
+        <table border="1" class="tablaformularios">
+            <caption class="captionformulario">Formulario Completito</caption>
+                    
+                   <tr>Etiquetas
+                        <th>Fieldset</th>
+                        <td>Es una etiqueta que permite organizar en grupos los campos de un formulario.</td>
+                    </tr>
+                    <tr>
+                        <th>Legend</th>
+                        <td>Crea un título para un grupos los campos</td>
+                    </tr>
+                    <tr>
+                        <th>Form</th>
+                        <td>Permite crear un formulario para que el usuario pueda mandar información a un servidor web.</td>
+                    </tr>
+                    <tr>
+                        <th>input</th>
+                        <td>Se utiliza para crear controles para formularios que reciben datos de los usuarios</td>
+                    </tr>
+                    <tr>
+                        <th>Label</th>
+                        <td>Es un pequeño título asociado al input</td>
+                    </tr>
+                </table>
+        <br><br>
+        <fieldset>
+            <img src="formulariocompletito.png" id="formulariocompletito" title="Formulario Completito">
+            <legend>Formularios HTML5</legend>
+            <br><br>
+            
+            <label for="name" class="label">Name:</label>
+                <input type="text" id="name" autofocus>
+            <br><br>
+            <label for="email" class="label">Email:</label>
+                <input type="text" id="email">
+            <br><br>
+            <label for="url" class="label">URL:</label>
+                <input type="url" id="url" placeholder="Write the URL of your" required>
+            <br><br>
+            <label for="date" class="label">Date:</label>
+                <input type="date" id="date" value="" pattern="[0-9]{4}-[0-3]{2}-[0-3]{2}">
+            <br><br>
+            <label for="time" class="label">Time:</label>
+                <input type="time" id="time">
+            <br><br>
+            <label for="datetime" class="label">Date and Time of birth:</label>
+                <input type="datetime-local" id="datetime">UTC
+            <br><br>
+            <label for="month" class="label">Month:</label>
+                <input type="month" id="month">
+            <br><br>
+            <label for="week" class="label">Week:</label>
+                <input type="week" id="week">
+            <br><br>
+            <label for="number" class="label">Number(min -10, max 10):</label>
+                <input type="number" id="number" min="-10" max="10" value="0">
+            <br><br>
+            <label for="range" class="label">Range (min 0, max 10):</label>
+                <input type="range" id="range" min="0" max="10" value="0">0
+            <br><br>
+            <label for="telephone" class="label">Telephone:</label>
+                <input type="tel" id="telephone" pattern="[6-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]">
+            <br><br>
+            <label for="searchitem" class="label">Search item:</label>
+                <input type="search" id="searchitem">
+            <br><br>
+            <label for="favouritecolor" class="label">Favourite color:</label>
+                <input type="color" id="color">
+            
+            <br><br>
+            <input type="submit" id="submit" value="Submit!">
+        </fieldset>
+        </form>
+    <footer id="footerrelativo">
+    <a id="paginaanterior" href="../FORMULARIOSHTML5/formularioPrimero.html">Página Anterior</a>
+    <a id="paginasiguiente" href="../FORMULARIOSHTML5/Formulario%20Refinitivo.html">Página Siguiente</a>
+    </footer>
+
+</body>
+</html>

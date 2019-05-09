@@ -1,0 +1,388 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tabla Actividades José Jiménez Romero</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../JJR.ico">
+    <meta name="author" content="José Jiménez Romero">
+    <link rel="stylesheet" type="text/css" href="../../../estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+   <nav id="menu">
+<ul>
+     <li><a href="../../../index.html">Home</a></li>
+  <li><a href="../Practica1-HolaMundo/index.html" class="active">Hola Mundo</a></li>
+  <li><a href="#">Formularios</a>
+    <ul>
+      <li><a href="../FORMULARIOSHTML5/formularioPrimero.html">Formulario Primero</a></li>
+      <li><a href="../FORMULARIOSHTML5/FormularioCompletito.html">Formulario Completito</a></li>
+      <li><a href="../FORMULARIOSHTML5/Formulario%20Refinitivo.html">Formulario Refinitivo</a></li>
+    <li><a href="../FORMULARIOSHTML5/formularioDNI.html">Formulario DNI</a></li>
+    </ul>
+  </li>
+  <li><a href="../ListadoTablas/index.html">Listado Tablas</a></li>
+  <li><a href="../ListadoVarios/ListadoVariado.html">Listado Variado</a></li>
+    <li><a href="../CSStutorial/index.html">Tutorial CSS</a></li>
+    <li><a href="../../../TEMA3-SindicaciondeContenidos/AnalizandoRSS/index.html">Analizando RSS</a></li>
+    <li><a href="../../../TEMA3-SindicaciondeContenidos/Grid-Templates/index.html">Grid-Templates</a></li>
+    <li><a href="../../../TEMA4-XML/XMLdeCD/cd.xml">XML CD</a></li>
+</ul>
+</nav>
+    <br><br>
+    
+    
+    <h1 class="enunciado">ENUNCIADO</h1>
+    <p>Realizar las tablas descritas debajo:</p>
+    
+
+    <ul id="tablaantorcha1">        
+        <a href="#Tablaactividades"><li class="tablaantorcha1" id="tablaactividades">Tabla Actividades</li></a>
+        <a href="#Tablabr"><li class="tablaantorcha1" id="tablabr">Tabla br vs celdas</li></a>
+        <a href="#Tablaconciertos"><li class="tablaantorcha1" id="tablaconciertos">Tabla Conciertos</li></a>
+        <a href="#Tablacolumnasagrupadas"><li class="tablaantorcha1" id="tablacolumnasagrupadas">Tabla Columnas agrupadas</li></a>
+        <a href="#Tabladeliveryslots"><li class="tablaantorcha1" id="tabladeliveryslots">Tabla Delivery Slots</li></a>
+        <a href="#Tablaropa"><li class="tablaantorcha1" id="tablaropa">Tabla Ropa</li></a>
+        <a href="#Tablaholidays"><li class="tablaantorcha1" id="tablaholidays">Tabla Holidays</li></a>
+        <a href="#Tablapostername"><li class="tablaantorcha1" id="tablapostername">Tabla Poster Name</li></a>
+        <a href="#Tablateddy"><li class="tablaantorcha1" id="tablateddy">Tabla Teddy Bear Collector</li></a>
+    </ul>
+    <h2><a id="Tablaactividades" href="#tablaactividades">Tabla Actividades</a></h2>
+        <table border="1" class="tablas">
+            <caption class="caption">Tabla Actividades</caption>
+    
+            <tr>
+                <th>Fecha</th>
+                <th>Evento</th>
+                <th>Dirección</th>
+            </tr>
+            <tr>
+                <td>12 Ene</td>
+                <td>Waltz with Strauss</td>
+                <td>Ayuntamiento</td>
+            </tr>
+            <tr>
+                <td>24 Mar</td>
+                <td>Beckmann. Figuras del exilio</td>
+                <td>Museo Nacional Thyssen-Bornemisza</td>
+            </tr>
+            <tr>
+                <td>24 Abr</td>
+                <td>The Which</td>
+                <td>Ayuntamiento</td>
+            </tr>
+    </table>
+    
+    <h2><a id="Tablabr" href="#tablabr">Tabla br vs celdas</a></h2>
+    
+    <table border="1" class="tablas">
+        <caption class="caption">Tabla br vs celdas</caption>
+        
+        <tr>
+            <th>Fruit</th>
+            <th>Instructions</th>
+        </tr>
+        <tr>
+            <th>Apple<br>Orange</th>
+            <td>Cut in half, remove core<br>remove peel, cut out segments</td>
+            
+        </tr>
+        
+    </table>
+    
+    <h2><a id="Tablaconciertos" href="#tablaconciertos">Tabla Conciertos</a></h2>
+
+    <table border="1" class="tablas">
+        <caption class="caption">Tabla Conciertos</caption>
+        
+        <tr>
+            <th>Date</th>
+            <td>12 February</td>
+            <td>24 March</td>
+            <td>12 April</td>
+        </tr>
+        <tr>
+            <th>Event</th>
+            <td>Waltz with Strauss</td>
+            <td>The Obelisks</td>
+            <td>The What</td>
+        </tr>
+        <tr>
+            <th>Venue</th>
+            <td>Main Hall</td>
+            <td>West Wing</td>
+            <td>Main Hall</td>
+        </tr>
+        
+    </table>
+    
+    <h2><a id="Tablacolumnasagrupadas" href="#tablacolumnasagrupadas">Tabla Columnas agrupadas</a></h2>
+    <table border="1" class="tablas">
+        <caption class="caption">Tabla con columnas agrupadas</caption>
+    
+        <tr>
+            <td rowspan="2"></td>
+            <th colspan="2">Mars</th>
+            <th colspan="2">Venus</th>
+            
+        </tr>
+        <tr>
+            
+            <th>Produced</th>
+            <th>Sold</th>
+            <th>Produced</th>
+            <th>Sold</th>
+        </tr>
+        <tr>
+            <th>Teddy Bears</th>
+            <td>50,000</td>
+            <td>30,000</td>
+            <td>100,000</td>
+            <td>80,000</td>
+        </tr>
+        <tr>
+            <th>Board Games</th>
+            <td>10,000</td>
+            <td>5,000</td>
+            <td>12,000</td>
+            <td>9,000</td>
+        </tr>
+    
+    
+    </table>
+    
+    <h2><a id="Tabladeliveryslots" href="#tabladeliveryslots">Tabla Delivery Slots</a></h2>
+    <table border="1" class="tablas">
+        <caption class="caption">Tabla Delivery Slots</caption>
+        
+        <tr>
+            <th scope="col"></th>
+            <th scope="col">Monday</th>
+            <th scope="col">Tuesday</th>
+            <th scope="col">Wednesday</th>
+            <th scope="col">Thursday</th>
+            <th scope="col">Friday</th>
+        </tr>
+        <tr>
+            <th scope="row">09:00-11:00</th>
+            <td scope="row">Closed</td>
+            <td scope="row">Open</td>
+            <td scope="row">Open</td>
+            <td scope="row">Closed</td>
+            <td scope="row">Closed</td>
+        </tr>
+        <tr>
+            <th scope="row">11:00-13:00</th>
+            <td scope="row">Open</td>
+            <td scope="row">Open</td>
+            <td scope="row">Closed</td>
+            <td scope="row">Closed</td>
+            <td scope="row">Closed</td>
+        </tr>
+        <tr>
+            <th scope="row">13:00-15:00</th>
+            <td scope="row">Open</td>
+            <td scope="row">Open</td>
+            <td scope="row">Open</td>
+            <td scope="row">Closed</td>
+            <td scope="row">Closed</td>
+        </tr>
+        <tr>
+            <th scope="row">15:00-17:00</th>
+            <td scope="row">Closed</td>
+            <td scope="row">Closed</td>
+            <td scope="row">Closed</td>
+            <td scope="row">Open</td>
+            <td scope="row">Open</td>
+        </tr>
+
+    </table>
+    
+     <h2><a id="Tablaropa" href="#tablaropa">Tabla de Ropa</a></h2>
+
+        <table border="1" class="tablas">
+            <caption class="caption">Tabla de Ropa</caption>
+    
+        <tr>
+            <th>Shirt</th>
+            <th>Size</th>
+            <th>Stock</th>
+        </tr>
+            <tr>
+                <th rowspan="3">Blue</th>
+                <td>S</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>M</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>XL</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <th rowspan="4">Red</th>
+                <td>M</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>L</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>XL</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>XXL</td>
+                <td>1</td>
+            </tr>
+    
+    </table>
+    
+    <h2><a id="Tablaholidays" href="#tablaholidays">Tabla Holidays</a></h2>
+    
+    <table border="1" class="tablas">
+        <caption class="caption">Tabla Holidays</caption>
+
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">July</th>
+            <th scope="col">August</th>
+            <th scope="col">September</th>
+            <th scope="col">October</th>
+            <th scope="col">November</th>
+        </tr>
+        <tr>
+            <td scope="row">215</td>
+            <th scope="row">Abel</th>
+            <td scope="row">5</td>
+            <td scope="row">2</td>
+            <td scope="row">0</td>
+            <td scope="row">0</td>
+            <td scope="row">0</td>
+        </tr>
+        <tr>
+            <td scope="row">231</td>
+            <th scope="row">Annette</th>
+            <td scope="row">0</td>
+            <td scope="row">5</td>
+            <td scope="row">3</td>
+            <td scope="row">0</td>
+            <td scope="row">0</td>
+        </tr>
+        <tr>
+            <td scope="row">173</td>
+            <th scope="row">Bernard</th>
+            <td scope="row">2</td>
+            <td scope="row">0</td>
+            <td scope="row">0</td>
+            <td scope="row">5</td>
+            <td scope="row">0</td>
+        </tr>
+        <tr>
+            <td scope="row">141</td>
+            <th scope="row">Gerald</th>
+            <td scope="row">0</td>
+            <td scope="row">10</td>
+            <td scope="row">0</td>
+            <td scope="row">0</td>
+            <td scope="row">0</td>
+        </tr>
+        <tr>
+            <td scope="row">99</td>
+            <th scope="row">Michael</th>
+            <td scope="row">8</td>
+            <td scope="row">8</td>
+            <td scope="row">8</td>
+            <td scope="row">8</td>
+            <td scope="row">0</td>
+        </tr>
+        
+        
+    </table>
+    
+    <h2><a id="Tablapostername" href="#tablapostername">Tabla Poster Name</a></h2>
+
+        <table border="1" class="tablas">
+            <caption class="caption">Tabla Poster Name</caption>
+        
+            <tr>
+                <th scope="col">Poster Name</th>
+                <th scope="col">Color</th>
+                <th colspan="3" scope="col">Sizes availables</th>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="row">Zodiac</th>
+                <th scope="row">full color</th>
+                <td scope="row">A2</td>
+                <td scope="row">A3</td>
+                <td scope="row">A4</td>
+            </tr>
+            <tr>
+                <th scope="row">Balck and White</th>
+                <td scope="row">A1</td>
+                <td scope="row">A2</td>
+                <td scope="row">A3</td>
+            </tr>
+            <tr>
+                <th scope="row">Sepia</th>
+                <td scope="row">A3</td>
+                <td scope="row">A4</td>
+                <td scope="row">A5</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="row">Angels</th>
+                <th scope="row">Balck and White</th>
+                <td scope="row">A1</td>
+                <td scope="row">A3</td>
+                <td scope="row">A4</td>
+            </tr>
+            <tr>
+                <th scope="row">Sepia</th>
+                <td scope="row">A2</td>
+                <td scope="row">A3</td>
+                <td scope="row">A5</td>
+            </tr>
+    
+    
+    </table>
+    
+    <h2><a id="Tablateddy" href="#tablateddy">Tabla Teddy Bear Collector</a></h2>
+
+    <table border="1" class="tablas">
+        <caption class="caption">Tabla Teddy Bear Collector</caption>
+        
+        <tr>
+            <th scope="col">Last Name</th>
+            <th scope="col">First Name</th>
+            <th scope="col">City</th>
+        </tr>
+        
+        <tr>
+            <td scope="row">Phoenix</td>
+            <td scope="row">Imari</td>
+            <td scope="row">Henry</td>
+        </tr>
+        <tr>
+            <td scope="row">Zeki</td>
+            <td scope="row">Rome</td>
+            <td scope="row">Min</td>
+        </tr>
+        <tr>
+            <td scope="row">Aprika</td>
+            <td scope="row">Kelly</td>
+            <td scope="row">Brynn</td>
+        </tr>
+    </table>
+    <br><br>
+    
+    <footer id="footerrelativo">
+    <a id="paginaanterior" href="../FORMULARIOSHTML5/formularioDNI.html">Página Anterior</a>
+    <a id="paginasiguiente" href="../ListadoVarios/ListadoVariado.html">Página Siguiente</a>
+    </footer>
+
+</body>
+</html>
