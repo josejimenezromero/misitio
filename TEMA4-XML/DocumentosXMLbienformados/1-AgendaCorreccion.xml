@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<agenda>
+   <entrada>
+     <nombre-completo>Marta Elena Zorrilla</nombre-completo>
+   </entrada>
+</agenda>
+<!--Jose Jimenez Romero-->
+<!--He corregido la palabra version sin tilde y la etiqueta <nombre-completo> estaba sin cerrar y falta el signo de ? al final de la declaracion-->

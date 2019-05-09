@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mundiales-de-futbol>
+  <mundial>
+      <pais>España</pais>
+    <año>1982</año>
+  </mundial>
+</mundiales-de-futbol>
+
+<!--José Jiménez Romero-->
+
+<!--La etiqueta pais no puede llevar el atributo españa y la etiqueta 1982 no existe por lo tanto España lo he puesto como dato de la etiqueta pais y 1982 como dato de la etiqueta año-->

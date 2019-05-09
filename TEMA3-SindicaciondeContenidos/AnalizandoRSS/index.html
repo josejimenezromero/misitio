@@ -1,0 +1,127 @@
+<html>
+<head>
+    <title>Analizando RSS José Jiménez Romero</title>
+    <meta name="Author" content="José Jiménez Romero">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    </head>
+
+    <body>
+    <nav id="menu">
+<ul>
+     <li><a href="../../../index.html">Home</a></li>
+  <li><a href="../Practica1-HolaMundo/index.html" class="active">Hola Mundo</a></li>
+  <li><a href="#">Formularios</a>
+    <ul>
+      <li><a href="../FORMULARIOSHTML5/formularioPrimero.html">Formulario Primero</a></li>
+      <li><a href="../FORMULARIOSHTML5/FormularioCompletito.html">Formulario Completito</a></li>
+      <li><a href="../FORMULARIOSHTML5/Formulario%20Refinitivo.html">Formulario Refinitivo</a></li>
+    <li><a href="../FORMULARIOSHTML5/formularioDNI.html">Formulario DNI</a></li>
+    </ul>
+  </li>
+  <li><a href="../ListadoTablas/index.html">Listado Tablas</a></li>
+  <li><a href="../ListadoVarios/ListadoVariado.html">Listado Variado</a></li>
+    <li><a href="../CSStutorial/index.html">Tutorial CSS</a></li>
+    <li><a href="../../../TEMA3-SindicaciondeContenidos/AnalizandoRSS/index.html">Analizando RSS</a></li>
+    <li><a href="../../../TEMA3-SindicaciondeContenidos/Grid-Templates/index.html">Grid-Templates</a></li>
+    <li><a href="../../TEMA4-XML/XMLdeCD/cd.xml">XML CD</a></li>
+</ul>
+</nav>
+    <br><br>
+        <h1>Analizando RSS José Jiménez Romero</h1>
+        
+        <h2>URLs</h2>
+       
+        <ul>
+            <li><a href="http://static.userland.com/gems/backend/rssTwoExample2.xml" target="_blank">http://static.userland.com/gems/backend/rssTwoExample2.xml</a></li>
+            <li><a href="https://www.feedforall.com/sample-feed.xml" target="_blank">https://www.feedforall.com/sample-feed.xml</a></li>
+            <li><a href="http://api2.rtve.es/rss/temas_rock-pop.xml" target="_blank">http://api2.rtve.es/rss/temas_rock-pop.xml</a></li>
+            <li><a href="http://www.aemet.es/documentos_d/eltiempo/prediccion/avisos/rss/CAP_AFAP7431_ATOM.xml" target="_blank">http://www.aemet.es/documentos_d/eltiempo/prediccion/avisos/rss/CAP_AFAP7431_ATOM.xml</a></li>
+            
+        </ul>
+        
+        <br>
+        <h2>Primer enlace:</h2>
+        
+       <p><strong>1.-Indica si es válido el feed</strong></p>
+            <p>Este feed es válido</p>
+       <p><strong>2.-Subsana los errores/warnings en su caso</strong></p>
+            <p>Este feed tiene 3 avisos, dos de ellos son por no poner el nombre completo en la dirección de correo, por ejemplo,<em><managingEditor> luksa@dallas.example.com (Frank Luksa) </managingEditor></em>, y el otro aviso es debido a que falta declarar la url de atom</p>
+        <p><strong>3.-Indica channel o equivalente</strong></p>
+            <p>En este feed el canal es de la página de Userland Software</p>
+        <p><strong>4.-Indica número de items o equivalentes</strong></p>
+        <p>Este feed tiene 9 item declarados</p>
+        <img src="primerenlace.png" alt="primerenlace">
+        <br>
+        <h2>Segundo enlace:</h2>
+        
+       <p><strong>1.-Indica si es válido el feed</strong></p>
+            <p>Este feed es válido</p>
+       <p><strong>2.-Subsana los errores/warnings en su caso</strong></p>
+            <p>Este feed tiene seis avisos, dos de ellos son como en el feed anterior, por no poner el nombre completo en la dirección de correo,otro aviso es porque no coincide el título de la imagen con el título del canal para solucionarlo debemos añadir el mismo nombre en ambos. Por otro lado, el siguiente aviso es debido a que el enlace de la imagen no coincide con el enlace del canal. El quinto aviso es porque la etiqueta item debería contener un elemento giud y el último aviso es por el mismo motivo que el último aviso del primer enlace, debido a no declarar la url de atom</p>
+        <p><strong>3.-Indica channel o equivalente</strong></p>
+            <p>En este feed el canal es de la página FeedForall</p>
+        <p><strong>4.-Indica número de items o equivalentes</strong></p>
+        <p>Este feed tiene 3 item declarados</p>
+        <img src="segundoenlace.png" alt="segundoenlace">
+        <br>
+        <h2>Tercer enlace:</h2>
+        
+       <p><strong>1.-Indica si es válido el feed</strong></p>
+            <p>Este feed es válido</p>
+       <p><strong>2.-Subsana los errores/warnings en su caso</strong></p>
+            <p>Este feed tiene tres avisos, en el primero nos recomienda que el elemento item contenga un elemento guid, el siguiente aviso es debido a que los atributos de estilos son muy problemáticos con los feed por lo que el mensaje es que el atributo estilos tiene contenido potencialmente inseguro. El último aviso se repite junto con los dos enlace anteriores, falta la declaración de la url de atom</p>
+        <p><strong>3.-Indica channel o equivalente</strong></p>
+            <p>En este feed el canal es de la radio de Rock/Pop de rtve</p>
+        <p><strong>4.-Indica número de items o equivalentes</strong></p>
+        <p>Este feed tiene 70 item declarados</p>
+        <img src="tercerenlace.png" alt="tercerenlace">
+        <br>
+        <h2>Cuarto enlace:</h2>
+        
+       <p><strong>1.-Indica si es válido el feed</strong></p>
+            <p>Este feed no es válido</p>
+       <p><strong>2.-Subsana los errores/warnings en su caso</strong></p>
+            <p>Este feed tiene cuatro errores, el primero de ellos es por no añadir el atributo href a una url, para solucionarlo debemos añadir el atributo href en el atributo link. El segundo error es debido a que la url está mal formada ya que le falta http://, el tercer error es porque los link no deben tener texto ya que algunos elementos exresan sus datos en texto y otros expresan sus datos en atributos y esto puede crear confusión. El último error se ha repetido en todos los feeds, es debido a que no está declarada la url del atom</p>
+        <p><strong>3.-Indica channel o equivalente</strong></p>
+            <p>En este feed el canal es de los avisos de aemet</p>
+        <p><strong>4.-Indica número de items o equivalentes</strong></p>
+        <p>Este feed no tiene declarado ningún feed</p>
+        <img src="cuartoenlace.png" alt="cuartoenlace">
+        <br><br>
+        
+        
+        <h2>Estructura y elementos de RSS 2.0:</h2>
+        <p><strong>Estructura principal de un documento RSS</strong></p>
+            <p>Debemos declarar tanto la versión del XML como la versión del RSS, además de declarar los atributos obligatorios como son el channel, title, link y description, finalmente añadir algún item.</p>
+        <p><strong>Indica cuántos elementos <em>channel</em> puede haber en un documento RSS</strong></p>
+            <p>Sólo puede haber un channel en un documento RSS.</p>
+        <p><strong>Indica los elementos requeridos en <em>channel</em> (son tres)</strong></p>
+            <p>Los elementos del channel requeridos son el title, link y description</p>
+        <p><strong>Indica los elementos secundarios en <em>channel</em> (son 15)</strong></p>
+            <p>Los elementos secundarios son language, copyright, managingEditor, webMaster, pubDate, lastBuildDate, category, generator, docs, cloud, ttl, image, textInput, skipHours, skipDays</p>
+        <p><strong>Elementos item</strong></p>
+            <p>Los elementos de item son title, link, description, author, category, comments, enclosure, guid, pubDate, source</p>
+        <br>
+        <h2>Estructura y elementos de Atom 1.0:</h2>
+        <p><strong>Estructura principal de un documento Atom</strong></p>
+            <p>La estructura principal contiene los atributos </p>
+        <p><strong>Indica cuántos elementos <em>feed</em> puede haber en un documento Atom</strong></p>
+            <p>Puede haber sólo un elemento feed en el documento atom</p>
+        <p><strong>Indica los elementos requeridos en <em>feed</em></strong></p>
+            <p>Los elementos obligatorios son el id, title y updated</p>
+        <p><strong>Indica los elementos recomendados en <em>feed</em></strong></p>
+            <p>Los elementos recomendados son author, link</p>
+        <p><strong>Indica los elementos opcionales en <em>feed</em></strong></p>
+            <p>Los atributos opcionales son category, contributor, generator, icon, logo, rights, subtitle</p>
+        <p><strong>Indica los elementos requeridos en <em>entry</em></strong></p>
+            <p>Los elementos obligatorios son el id, title y updated</p>
+        <p><strong>Indica los elementos recomendados en <em>entry</em></strong></p>
+            <p>Los elementos recomendados son author, link, content y summary</p>
+        <p><strong>Indica los elementos opcionales en <em>entry</em></strong></p>
+            <p>Los atributos opcionales son category, contributor, rights, source, published</p>
+        
+    </body>
+
+</html>

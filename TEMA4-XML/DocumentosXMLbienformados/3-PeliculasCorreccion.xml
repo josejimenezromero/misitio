@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<filmoteca>
+    <pelicula>
+        <titulo>Con faldas y a lo loco</titulo>
+        <director>Billy Wilder</director>
+    </pelicula>
+    <pelicula>
+        <director>Leo McCarey</director>
+        <titulo>Sopa de ganso</titulo>
+    </pelicula>
+    <autor >barto</autor>
+</filmoteca>
+
+<!--José Jiménez Romero-->
+
+<!--No tiene elemento raíz, la etiqueta autor nos muestra que debe ser vacía pero tiene contenido-->

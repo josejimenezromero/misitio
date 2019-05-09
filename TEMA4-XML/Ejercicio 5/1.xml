@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE liga [
+  <!ELEMENT liga (partido*)>
+  <!ELEMENT partido (local, visitante)>
+  <!ELEMENT local (nombreclub, goles)>
+  <!ELEMENT visitante (nombreclub, goles)>
+  <!ELEMENT nombreclub (#PCDATA)>
+  <!ELEMENT goles (#PCDATA)>
+]>
+
+<liga>
+  <partido>
+    <local>
+      <nombreclub>Nottingham Presa</nombreclub>
+      <goles>0</goles>
+    </local>
+    <visitante>
+      <nombreclub>Inter de Mitente</nombreclub>
+      <goles>1</goles>
+    </visitante>
+  </partido>
+  <partido>
+    <local>
+      <nombreclub>Vodka Juniors</nombreclub>
+      <goles>3</goles>
+    </local>
+    <visitante>
+      <nombreclub>Sparta da Risa</nombreclub>
+      <goles>3</goles>
+    </visitante>
+  </partido>
+  <partido>
+    <local>
+      <nombreclub>Water de Munich</nombreclub>
+      <goles>4</goles>
+    </local>
+    <visitante>
+      <nombreclub>Esteaua es del grifo</nombreclub>
+      <goles>2</goles>
+    </visitante>
+  </partido>
+</liga>
+
+
+<!--Jose Jimenez Romero-->
+
+<!--DTD sin atributos, solo con etiquetas-->

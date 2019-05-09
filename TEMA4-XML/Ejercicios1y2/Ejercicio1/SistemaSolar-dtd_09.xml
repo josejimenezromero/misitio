@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sistemaSolar [
+<!ELEMENT sistemaSolar (cuerpo*)>
+<!ELEMENT cuerpo ((planeta|satelite|asteroide)+)>
+<!ELEMENT planeta (#PCDATA)>
+<!ELEMENT satelite (#PCDATA)>
+<!ELEMENT asteroide (#PCDATA)>
+]>
+<sistemaSolar>
+<cuerpo>
+<planeta>Tierra</planeta>
+</cuerpo>
+<cuerpo>
+<satelite>Luna</satelite>
+</cuerpo>
+<cuerpo>
+<asteroide>Ceres</asteroide>
+</cuerpo>
+</sistemaSolar>
+
+<!--José Jiménez Romero-->
+
+<!--La etiqueta asteroide es hija de cuerpo, por lo tanto debe ir dentro de cuerpo y no sola. Lo mismo pasa con la etiqueta satelite y planeta que son hijas de cuerpo pero no pueden coincidir dentro de cuerpo ya que hemos declarado que puede ir o una u otra pero nunca coincidir-->

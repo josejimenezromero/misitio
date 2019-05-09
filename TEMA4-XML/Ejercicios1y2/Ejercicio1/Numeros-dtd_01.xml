@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE numeros [
+<!ELEMENT numeros (#PCDATA)>
+]>
+<numeros>25</numeros>
+
+
+<!--José Jiménez Romero-->
+
+<!--He eliminado la etiqueta numero ya que no se declara ningun hijo de la etiqueta numeros-->

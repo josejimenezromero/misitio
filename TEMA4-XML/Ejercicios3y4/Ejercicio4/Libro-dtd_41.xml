@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro [
+<!ELEMENT libro EMPTY>
+<!ATTLIST libro autor CDATA #REQUIRED>
+]>
+<libro autor="Mario Vargas Llosa" />
+
+<!--José Jiménez Romero-->
+
+<!--En el dtd esta declarado el atributo autor como NMTOKEN y tendría que declararse como CDATA ya que NMTOKEN no admite espacios-->

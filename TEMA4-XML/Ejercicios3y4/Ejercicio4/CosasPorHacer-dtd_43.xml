@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cosasPorHacer [
+25. <!ELEMENT cosasPorHacer (cosa)>
+26. <!ELEMENT cosa CDATA>
+27. <!ATTLIST cosa fecha CDATA #REQUIRED>
+28. <!ATTLIST cosa asunto CDATA #REQUIRED>
+29. <!ATTLIST cosa fechaLimite CDATA #REQUIRED>
+30. ]>
+31.
+32. <cosasPorHacer>
+33. <cosa fecha="20 de febrero de 2011" fechaLimite="1 de marzo
+de 2011">
+34. Preparar ejercicios de DTDs</cosa>
+35. <cosa fecha="21 de febrero de 2011" fechaLimite="5 de marzo
+de 2011">
+36. Preparar tema XSLT</cosa>
+</cosasPorHacer>
+
+<!--José Jiménez Romero-->

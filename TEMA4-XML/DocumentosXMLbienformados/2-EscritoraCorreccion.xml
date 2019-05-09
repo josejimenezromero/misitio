@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<escritora>
+<nombre-completo>Marta Elena   Zorrilla </nombre-completo>
+  <direccion>
+    <calle> Avda Los Castros</calle>
+    <ciudad>Santander</ciudad>
+    <codigo-postal>39005</codigo-postal>
+    <region>Cantabria</region>
+    <pais>España</pais>
+  </direccion>
+  <tel preferente="true"> 942201363</tel>
+  <correo-e href="zorrillm@unican.es"/>
+  </escritora>
+<!--José Jiménez Romero-->
+<!--Este archivo xml no tenía elemento raíz, la etiqueta de nombre-completo se cerraba al final con dos signos de mayor,la tilde de la palabra versión y no es html como muestra la declaracion, es XML-->

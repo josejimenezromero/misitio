@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--José Jiménez Romero-->
+<cd>
+<artista>
+        <nombre>C Tangana</nombre>
+        <nacimiento>
+            <fecha>
+                  <dia>16</dia>
+                  <mes>07</mes>
+                  <año>1990</año>
+            </fecha>
+            <lugar>Madrid</lugar>
+        </nacimiento>
+  
+  </artista>
+  <titulo>Avida Dollars</titulo>
+  <fecha>
+      <dia>20</dia>  
+      <mes>04</mes>
+      <año>2018</año>
+  </fecha>
+  <genero>Pop</genero>
+  <cancion>
+          <titulo>Still Rapping</titulo>
+          <duracion>
+              <minutos>1</minutos>
+              <segundos>30</segundos>
+          </duracion>
+  </cancion>
+  <cancion>
+          <titulo>Baile de la lluvia</titulo>
+          <duracion>
+              <minutos>3</minutos>
+              <segundos>14</segundos>  
+          </duracion>
+  </cancion>
+</cd>

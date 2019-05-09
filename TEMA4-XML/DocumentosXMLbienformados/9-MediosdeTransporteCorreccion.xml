@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mediosDeTransporte>
+  <bicicleta>
+        <velocidad_maxima>100km/h</velocidad_maxima>
+  </bicicleta>
+  <patinete>
+        <velocidad_maxima>50 km/h</velocidad_maxima>
+  </patinete>
+</mediosDeTransporte>
+
+<!--José Jiménez Romero-->
+
+<!--Las etiquetas bicicleta y patinete no es recomendable que lleven como atributo velocidad, por ello he añadido velocidad como otra etiqueta hija de cada una de ellas. Además la etiqueta 100km/h no existe-->

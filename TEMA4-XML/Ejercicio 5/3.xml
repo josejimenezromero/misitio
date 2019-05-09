@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE liga [
+  <!ELEMENT liga (partido*)>
+  <!ELEMENT partido EMPTY>
+  <!ATTLIST partido localNombreclub CDATA #REQUIRED>
+  <!ATTLIST partido localgoles CDATA #REQUIRED>
+  <!ATTLIST partido visitanteNombreclub CDATA #REQUIRED>
+  <!ATTLIST partido visitantegoles CDATA #REQUIRED>
+]>
+
+<liga>
+  <partido localNombreclub="Nottingham Presa" localgoles="0" visitanteNombreclub="Inter de Mitente" visitantegoles="1" />
+  <partido localNombreclub="Vodka Juniors" localgoles="3"  visitanteNombreclub="Sparta da Risa" visitantegoles="3" />
+  <partido localNombreclub="Water de Munich" localgoles="4" visitanteNombreclub="Esteaua es del grifo" visitantegoles="2" />
+</liga>
+
+<!--Jose Jimenez Romero-->
+
+<!--DTD en que toda la informacon se guarde en forma de atributos-->

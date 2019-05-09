@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE marcadores [
+<!ELEMENT marcadores (marcador*)>
+<!ELEMENT marcador (nombre, uri)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT uri (#PCDATA)>
+]>
+<marcadores>
+<marcador>
+<nombre>W3C</nombre>
+<uri>http://www.w3.org/</uri>
+</marcador>
+<marcador>
+<nombre>Web Hypertext Application Technology Working Group (WHATWG) </nombre>
+<uri>http://www.whatwg.org/</uri>
+</marcador>
+</marcadores>
+
+<!--José Jiménez Romero-->
+
+<!--En el dtd nos indica como elemento raiz la etiqueta favoritos pero la etiqueta raiz es marcadores y añadir el asterisco en la etiqueta marcador para que haya varios-->

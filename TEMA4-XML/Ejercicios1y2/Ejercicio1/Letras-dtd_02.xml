@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE letras [
+<!ELEMENT letras (letra)>
+<!ELEMENT letra (#PCDATA)>
+]>
+<letras>
+<letra>uve doble</letra>
+</letras>
+
+<!--José Jiménez Romero-->
+
+<!--He eliminado  unaa de las etiquetas letra porque se repetia y no puede aparecer mas de una etiqueta con el mismo nombre-->

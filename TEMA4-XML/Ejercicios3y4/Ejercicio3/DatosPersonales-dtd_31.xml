@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona [
+<!ELEMENT persona EMPTY>
+<!ATTLIST persona nombre CDATA #IMPLIED>
+]>
+<persona nombre="03141592E" />
+
+
+<!--José Jiménez Romero-->
+
+<!--En el dtd se declara el atributo nombre y no el atributo dni como se mostraba anteriormente, por ello he cambiado el atributo de persona a nombre-->

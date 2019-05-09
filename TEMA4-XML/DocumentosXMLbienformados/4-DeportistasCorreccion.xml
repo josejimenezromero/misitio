@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<deportistas>
+    <deportista>
+        <deporte>
+        <modalidad>Atletismo </modalidad>
+        <nombre>Jesse Owens</nombre>
+        </deporte>
+        </deportista>
+    <deportista>
+        <deporte>
+        <modalidad>Natación </modalidad>
+        <nombre>Mark Spitz</nombre>
+        </deporte>
+    </deportista>
+</deportistas>
+
+<!--José Jiménez Romero-->
+
+<!--La etiqueta deporte contiene una palabra y no puede ser así,yo he añadido otra etiqueta llamada modalidad y la etiqueta deporte aparece vacía, yo la he declarado como abierta y cerrada la etiqueta deporte y la etiqueta deportista no estaba cerrada-->

@@ -1,0 +1,58 @@
+body { 
+	font-family: segoe-ui_normal,Segoe UI,Segoe,Segoe WP,Helvetica Neue,Helvetica,sans-serif;
+	display: grid;
+	grid-template-areas: 
+    "header header header"
+    "nav section aside"
+    "footer footer footer";
+	grid-template-rows: 80px 1fr 50px;
+	grid-template-columns: 15% 1fr 18%;
+	grid-gap: 5px;
+  height: 100vh;
+  margin: 10px;  
+}
+
+header {
+	background: #071883;
+	grid-area: header;
+}
+
+nav {
+	background: #5A71FF;
+	grid-area: nav; 
+}
+
+section {
+	background: #5A71FF;
+	grid-area: section;    
+}
+
+aside {
+	background: #5A71FF;
+	grid-area: aside; 
+}
+
+footer {
+	background: #071883;
+	grid-area: footer;
+    text-align: center;
+}
+
+header, nav, section, aside, footer {
+	padding: 5px;
+}
+
+.redessociales {
+    
+    width: 20px;
+}
+
+#nombre {
+    text-align: right;
+    color: white;
+    margin-top: 0px;
+    
+}
+#logo {
+    width: 40px;
+}

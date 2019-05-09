@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<geografiamundial>
+    <pais>
+        <nombre>España</nombre>
+        <continente>Europa</continente>
+        <capital>Madrid</capital>
+    </pais>
+</geografiamundial>
+
+<!--José Jiménez Romero-->
+
+<!--La etiqueta geografiamundial estaba separa por un eespacio lo cual estaba incorrecta ya que no puede haber espacio y la etiqueta pais no se puede repetir en el hijo-->

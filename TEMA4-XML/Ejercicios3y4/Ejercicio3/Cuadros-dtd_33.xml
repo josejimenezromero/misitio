@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cuadros [
+<!ELEMENT cuadros (cuadro*)>
+<!ELEMENT cuadro EMPTY>
+<!ATTLIST cuadro titulo ID #REQUIRED>
+<!ATTLIST cuadro autor CDATA #REQUIRED>
+]>
+<cuadros>
+<cuadro titulo="AdányEva" autor="Alberto Durero" />
+<cuadro titulo="Labiblia" autor="Lucas Cranach, el viejo" />
+</cuadros>
+
+<!--José Jiménez Romero-->
+
+<!--Debido a que cuadro titulo es id no puede repetirse los datos , por lo que he quitado los espacios y además he añadido el dato labiblia ya que no puede repetirse los datos del atributo titulo-->
